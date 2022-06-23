@@ -1,3 +1,28 @@
 .list {
     padding: 0;
 }
+
+.input-field {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.input {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.input:focus {}
+
+.button-add {
+    background-color: #0DCAF0;
+    padding: 0.5rem 1rem;
+    border: 0.2rem solid #055160;
+    border-radius: 0.5rem;
+}
+
+.button-add:active {
+    background-color: #087990;
+}

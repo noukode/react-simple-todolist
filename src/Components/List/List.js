@@ -3,7 +3,17 @@ import './List.css'
 
 const List = (props) => {
     return (
-        <li className='item'>{props.item}</li>
+        <li className='item'>
+            <div className='checkbox'>
+                <input type="checkbox" />
+            </div>
+            <div className='value-item'>
+                {props.item}
+            </div>
+            <a href='#' className='close-button'>
+                
+            </a>
+        </li>
     )
 }
 
